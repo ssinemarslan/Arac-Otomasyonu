@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Araclar>
+  <AraclarBilgi>
+    <AracNo>1</AracNo>
+    <AracAdi>Togg</AracAdi>
+    <AracOzellik>Manuel</AracOzellik>
+    <Fiyat>5000</Fiyat>
+    <UretimYeri>Türkiye</UretimYeri>
+  </AraclarBilgi>
+  <AraclarBilgi>
+    <AracNo>2</AracNo>
+    <AracAdi>jjj</AracAdi>
+    <AracOzellik>jkl</AracOzellik>
+    <Fiyat>12</Fiyat>
+    <UretimYeri>yhn</UretimYeri>
+  </AraclarBilgi>
+</Araclar>

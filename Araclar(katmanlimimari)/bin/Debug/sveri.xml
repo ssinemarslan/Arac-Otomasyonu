@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Araclar>
+  <SehirlerBilgi>
+    <SehirNo>1</SehirNo>
+    <SehirAdi>bbb</SehirAdi>
+    <SehirBolge>bbb</SehirBolge>
+    <SehirNufus>777</SehirNufus>
+    <AracNo>8</AracNo>
+  </SehirlerBilgi>
+  <SehirlerBilgi>
+    <SehirNo>60</SehirNo>
+    <SehirAdi>Tokat</SehirAdi>
+    <SehirBolge>Karadeniz</SehirBolge>
+    <SehirNufus>5555</SehirNufus>
+    <AracNo>3</AracNo>
+  </SehirlerBilgi>
+  <SehirlerBilgi>
+    <SehirNo>34</SehirNo>
+    <SehirAdi>yyy</SehirAdi>
+    <SehirBolge>yyy</SehirBolge>
+    <SehirNufus>111</SehirNufus>
+    <AracNo>12</AracNo>
+  </SehirlerBilgi>
+</Araclar>

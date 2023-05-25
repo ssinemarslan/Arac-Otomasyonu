@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EF6AF7CE-011B-4E54-ACD1-53EEDADCB1D2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Araclar_katmanlimimari_</RootNamespace>
+    <AssemblyName>Araclar%28katmanlimimari%29</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AraclarEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AraclarEkrani.Designer.cs">
+      <DependentUpon>AraclarEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AraclarXmlEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AraclarXmlEkrani.Designer.cs">
+      <DependentUpon>AraclarXmlEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GirisEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirisEkrani.Designer.cs">
+      <DependentUpon>GirisEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kategoriler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kategoriler.Designer.cs">
+      <DependentUpon>Kategoriler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecimEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecimEkrani.Designer.cs">
+      <DependentUpon>SecimEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SehirlerEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SehirlerEkrani.Designer.cs">
+      <DependentUpon>SehirlerEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SehirlerXmlEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SehirlerXmlEkrani.Designer.cs">
+      <DependentUpon>SehirlerXmlEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubelerEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubelerEkrani.Designer.cs">
+      <DependentUpon>SubelerEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubelerXmlEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubelerXmlEkrani.Designer.cs">
+      <DependentUpon>SubelerXmlEkrani.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AraclarEkrani.resx">
+      <DependentUpon>AraclarEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AraclarXmlEkrani.resx">
+      <DependentUpon>AraclarXmlEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kategoriler.resx">
+      <DependentUpon>Kategoriler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SehirlerEkrani.resx">
+      <DependentUpon>SehirlerEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SehirlerXmlEkrani.resx">
+      <DependentUpon>SehirlerXmlEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubelerEkrani.resx">
+      <DependentUpon>SubelerEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubelerXmlEkrani.resx">
+      <DependentUpon>SubelerXmlEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj">
+      <Project>{019388c2-7ced-4dd3-88c1-408e0ba9c123}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{b699c134-3550-4f3f-8b73-1b314c82430c}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facade\Facade.csproj">
+      <Project>{240eaa92-de84-4e0b-ad4c-9f1b1cc7bcc4}</Project>
+      <Name>Facade</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

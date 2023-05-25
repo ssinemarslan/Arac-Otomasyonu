@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Araclar>
+  <SubelerBilgi>
+    <SubeNo>1</SubeNo>
+    <SubeAdi>Avcılar</SubeAdi>
+    <SubeAdres>gülsokak</SubeAdres>
+    <SubeTelefon>05456207009</SubeTelefon>
+    <SehirNo>34</SehirNo>
+  </SubelerBilgi>
+  <SubelerBilgi>
+    <SubeNo>2</SubeNo>
+    <SubeAdi>Kadıköyy</SubeAdi>
+    <SubeAdres>aaa</SubeAdres>
+    <SubeTelefon>111</SubeTelefon>
+    <SehirNo>System.Windows.Forms.TextBox, Text: 2</SehirNo>
+  </SubelerBilgi>
+  <SubelerBilgi>
+    <SubeNo>3</SubeNo>
+    <SubeAdi>aaa</SubeAdi>
+    <SubeAdres>bbbl</SubeAdres>
+    <SubeTelefon>222</SubeTelefon>
+    <SehirNo>System.Windows.Forms.TextBox, Text: 3</SehirNo>
+  </SubelerBilgi>
+</Araclar>

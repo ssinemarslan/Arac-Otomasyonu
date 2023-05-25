@@ -1,0 +1,11 @@
+C:\Users\sinem\OneDrive\Masaüstü\Uygulamalarım Sinem\Projeler\Araclar(katmanlimimari)\Business\bin\Debug\Business.dll
+C:\Users\sinem\OneDrive\Masaüstü\Uygulamalarım Sinem\Projeler\Araclar(katmanlimimari)\Business\bin\Debug\Business.pdb
+C:\Users\sinem\OneDrive\Masaüstü\Uygulamalarım Sinem\Projeler\Araclar(katmanlimimari)\Business\bin\Debug\Entity.dll
+C:\Users\sinem\OneDrive\Masaüstü\Uygulamalarım Sinem\Projeler\Araclar(katmanlimimari)\Business\bin\Debug\Facade.dll
+C:\Users\sinem\OneDrive\Masaüstü\Uygulamalarım Sinem\Projeler\Araclar(katmanlimimari)\Business\bin\Debug\Entity.pdb
+C:\Users\sinem\OneDrive\Masaüstü\Uygulamalarım Sinem\Projeler\Araclar(katmanlimimari)\Business\bin\Debug\Facade.pdb
+C:\Users\sinem\OneDrive\Masaüstü\Uygulamalarım Sinem\Projeler\Araclar(katmanlimimari)\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\Users\sinem\OneDrive\Masaüstü\Uygulamalarım Sinem\Projeler\Araclar(katmanlimimari)\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\sinem\OneDrive\Masaüstü\Uygulamalarım Sinem\Projeler\Araclar(katmanlimimari)\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Users\sinem\OneDrive\Masaüstü\Uygulamalarım Sinem\Projeler\Araclar(katmanlimimari)\Business\obj\Debug\Business.dll
+C:\Users\sinem\OneDrive\Masaüstü\Uygulamalarım Sinem\Projeler\Araclar(katmanlimimari)\Business\obj\Debug\Business.pdb
